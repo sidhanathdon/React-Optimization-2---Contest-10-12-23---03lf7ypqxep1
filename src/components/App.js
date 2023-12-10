@@ -22,7 +22,7 @@ const OptimizeTheOperation = ({ onClick }) => {
       <br />
       Enter the number:
       <form onSubmit={submitHandler}>
-        <input id="num" />
+        <input id="num" value={number}/>
         <button id="submit" type="submit">
           Click me 
         </button>
